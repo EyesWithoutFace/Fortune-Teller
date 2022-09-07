@@ -26,4 +26,4 @@ let randPhrase = () => {
         return 'Try again'
     }
 }
-console.log(randphrase())
+console.log(randPhrase())
