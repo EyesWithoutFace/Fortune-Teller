@@ -1,7 +1,7 @@
 const goodfortunes = [' You will be rich', ' You will live a long life', 
 ' Wednesday looking lucky', ' You have good luck today']
 const badfortunes = [' You will die in 7 days', ' You have bad luck', 
-' You will be poort', ' Look out on Tuesday']
+' You will be poor', ' Look out on Tuesday']
 
 let randnum = () => Math.floor(Math.random() * 8);
 
