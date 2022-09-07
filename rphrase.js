@@ -3,24 +3,24 @@ const goodfortunes = [' You will be rich', ' You will live a long life',
 const badfortunes = [' You will die in 7 days', ' You have bad luck', 
 ' You will be poor', ' Look out on Tuesday']
 
-let randnum = () => Math.floor(Math.random() * 8);
+let randNum = () => Math.floor(Math.random() * 8);
 
-let randphrase = () => {
-    if (randnum() === 0) {
+let randPhrase = () => {
+    if (randNum() === 0) {
          return goodfortunes[0]
-    }else if (randnum() === 1) {
+    }else if (randNum() === 1) {
         return goodfortunes[1]
-    } else if (randnum() === 2) {
+    } else if (randNum() === 2) {
         return goodfortunes[2]
-    } else if (randnum() === 3) {
+    } else if (randNum() === 3) {
         return goodfortunes[3]
-    } else if (randnum() === 4) {
+    } else if (randNum() === 4) {
         return badfortunes[0]
-    }else if (randnum() === 5) {
+    }else if (randNum() === 5) {
         return badfortunes[1]
-    }else if (randnum() === 6) {
+    }else if (randNum() === 6) {
         return badfortunes[2]
-    }else if (randnum === 7) {
+    }else if (randNum === 7) {
         return badfortunes[3]
     }else {
         return 'Try again'
